@@ -1,0 +1,24 @@
+venv/
+# raw datasets (large image archives)
+Dataset/train/
+Dataset/test/
+Dataset/Training_set.csv
+Dataset/Testing_set.csv
+
+# trained model artifacts / checkpoints
+*.keras
+*.h5
+*.pkl
+
+# generated results and media
+Artifacts/
+result/
+result.txt
+*.mp4
+*.png
+*.jpg
+*.jpeg
+
+# notebook caches and Python bytecode
+.ipynb_checkpoints/
+__pycache__/
